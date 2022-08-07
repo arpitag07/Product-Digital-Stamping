@@ -13,33 +13,6 @@ class Cust extends Component {
                         </div>
                     </div>
                 </div>
-                <div className="bottom">
-                    <div className="card">
-                        <div className="inner-box" id="card">
-                            <div className="card-front">
-                                <h3>Product Name</h3>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div className="bottom">
-                    <div className="card">
-                        <div className="inner-box" id="card">
-                            <div className="card-front">
-                                <h3>Article No.</h3>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div className="bottom">
-                    <div className="card">
-                        <div className="inner-box" id="card">
-                            <div className="card-front">
-                                <h3>Warranty Information</h3>
-                            </div>
-                        </div>
-                    </div>
-                </div>
                 <div className="right">
                     <div className="card">
                         <div className="inner-box" id="card">
