@@ -3,17 +3,21 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 // import App from './App';
 // import Login from './Login';
-// import ViewS from './ViewS';
-import Cust from './Cust';
 import reportWebVitals from './reportWebVitals';
+import Shopkeeper from "./Shopkeeper";
+// import Manufacturer from "./Manufacturer";
+// import Customer from "./Customer";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/* <App /> */}
     {/* <Login /> */}
-    <Cust />
-    {/* <ViewS /> */}
+    {/* <Manufacturer /> */}
+    <Shopkeeper />
+    {/* <Customer /> */}
+
+    
   </React.StrictMode>
 );
 
