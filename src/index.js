@@ -4,8 +4,8 @@ import './index.css';
 // import App from './App';
 // import Login from './Login';
 import reportWebVitals from './reportWebVitals';
-import Shopkeeper from "./Shopkeeper";
-// import Manufacturer from './Manufacturer';
+// import Shopkeeper from "./Shopkeeper";
+import Manufacturer from './Manufacturer';
 // import Customer from './Customer';
 
 
@@ -14,8 +14,8 @@ root.render(
   <React.StrictMode>
     {/* <App /> */}
     {/* <Login />  */}
-    <Shopkeeper />
-    {/* <Manufacturer /> */}
+    {/* <Shopkeeper /> */}
+    <Manufacturer />
     {/* <Customer /> */}
 
     
