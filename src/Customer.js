@@ -2,6 +2,7 @@
 import React, { Component } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Navbar } from "./C_components/Navbar";
+import { Product } from "./C_components/Product";
 import { Product_Details } from "./C_components/Product_Details";
 import { Warranty } from "./C_components/Warranty";
 class Customer extends Component {
@@ -15,7 +16,7 @@ class Customer extends Component {
             <Route exact path="/warranty" element={<Warranty />} />
             <Route
               exact
-              path="/product_Details"
+              path="/product_details"
               element={<Product_Details />}
             />
           </Routes>

@@ -5,17 +5,20 @@ import './index.css';
 // import Login from './Login';
 import reportWebVitals from './reportWebVitals';
 import Shopkeeper from "./Shopkeeper";
-// import Manufacturer from "./Manufacturer";
-// import Customer from "./Customer";
+// import Manufacturer from './Manufacturer';
+// import Customer from './Customer';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/* <App /> */}
-    {/* <Login /> */}
-    {/* <Manufacturer /> */}
+    {/* <Login />  */}
     <Shopkeeper />
+    {/* <Manufacturer /> */}
     {/* <Customer /> */}
+
+    
 
     
   </React.StrictMode>
