@@ -1,5 +1,10 @@
 import React from "react";
 import "./Navbar.css";
+// import QRCode from "react-qr-code";
+// import { useState } from "react";
+// function App() {
+//   const [text, setText] = useState("");
+
 export const Generate_New_QR = () => {
   return (
     <div className="main">
@@ -36,3 +41,4 @@ export const Generate_New_QR = () => {
     </div>
   );
 };
+// }

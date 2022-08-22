@@ -1,22 +1,24 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-// import App from './App';
+import App from './App';
 // import Login from './Login';
 import reportWebVitals from './reportWebVitals';
 // import Shopkeeper from "./Shopkeeper";
-import Manufacturer from './Manufacturer';
+// import Manufacturer from './Manufacturer';
 // import Customer from './Customer';
+
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    {/* <App /> */}
+    <App />
     {/* <Login />  */}
     {/* <Shopkeeper /> */}
-    <Manufacturer />
+    {/* <Manufacturer /> */}
     {/* <Customer /> */}
+    
 
     
 
