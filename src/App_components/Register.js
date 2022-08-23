@@ -25,7 +25,7 @@ const Register = (props) => {
     };
     console.log(sendData);
     axios
-      .post("http://localhost/insert_m.php", sendData)
+      .post("http://localhost/project/login_insert_data.php", sendData)
       .then((result) => {
         if (result.data.Status === "Invalid") {
           alert("Invalid User");
