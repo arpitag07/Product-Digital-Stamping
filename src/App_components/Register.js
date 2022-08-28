@@ -1,3 +1,4 @@
+import React from "react";
 import axios from "axios";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
@@ -25,7 +26,7 @@ const Register = (props) => {
     };
     console.log(sendData);
     axios
-      .post("http://localhost/project/login_insert_data.php", sendData)
+      .post("https://localhost/project/login_insert_data.php", sendData)
       .then((result) => {
         if (result.data.Status === "Invalid") {
           alert("Invalid User");
